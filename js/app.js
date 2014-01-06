@@ -1,5 +1,5 @@
 (function () {
-	window.fuckner = {
+	var fuckner = {
 		lines: [],
 
 		init: function () {
@@ -56,4 +56,7 @@
 			}));
 		}
 	};
+
+	$(document).foundation();
+	fuckner.init();
 }());
