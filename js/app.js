@@ -52,7 +52,7 @@
 
 		renderLines: function () {
 			$('#because').html(_.map(this.lines, function (line) {
-				return $('<span>' + line + '</span>');
+				return $('<a href="https://www.facebook.com/pages/Fuck-NER/658444140873575">' + line + '</a>');
 			}));
 		}
 	};
